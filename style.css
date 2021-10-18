@@ -1,0 +1,155 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	transition: .3s;
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	background-color: rgba(234,203,159, 0.8);
+}
+.Montserrat{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+header{
+	width: 100%;
+	height: 8vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: 100;
+	color: #56593D;
+}
+.name{
+	font-size: 30px;
+	color: #71744F;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+.logo{
+	height: 30px;
+}
+.menu{
+	font-weight: 400;
+}
+.block{
+	width: 80%;
+	margin-top: 20vh;
+	padding: 2%;		
+	border-radius: 10px;
+	background-color: white;
+	margin: 0 auto;
+}
+.abotmespan{
+	font-weight:900;
+	text-shadow: 0 0 3px #56593D;
+	font-style: italic;
+	color: white;
+	font-size: 50px;
+	margin:50px; 
+	margin: 10%;
+}
+.abotme{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+.abotmeinfo{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 5%;
+}
+.heading{
+	margin: 20px;
+	font-size: 30px;
+	font-weight: 900;
+	font-style: italic;
+	color: rgba(234,203,159, 0.8);
+	transition: .8s;
+}
+.heading:hover{
+	text-shadow: 0 0 15px rgba(234,203,159, 0.8);
+}
+.info{
+	color: rgb(108, 108, 150);
+}
+.me{
+	width: 40%;
+	box-shadow: -6px -6px 0 0 rgba(234,203,159, 1);
+}
+.passionsblock{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-shrink: 30px;
+	height: 120vh;
+}
+.head{
+	font-weight:900;
+	font-style: italic;
+	color: rgba(234,203,159, 1);
+	background-color: rgba(247, 237, 195, 0.5);
+	transform: skew(-10deg, 0deg);
+	box-shadow: -6px -6px 0 0 rgba(234,203,159, 1);
+	padding: 5px;
+	margin:20px;
+	font-size: 50px;
+}
+.photoblock{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.SeeMore{
+	margin:30px;
+}
+.description{
+	text-align: left;
+	font-family: 'Caveat', cursive;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	margin-top: 2%;
+}
+.photos{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.photo{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;	
+	padding:30px;
+}
+.photo2{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-top: -100px;
+	padding:30px;
+}
+.example{
+	border-radius: 10px;
+	width: 30%;
+}
+.programmingblock{
+	margin-top: 20px;
+}
+footer{
+	width: 100%;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	color: #56593D;
+}
