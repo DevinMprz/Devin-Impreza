@@ -1,3 +1,4 @@
+alert(Если увас возникают проблемы с сайтом, перезагрузите его :))
 document.body,onload = function(){
     setTimeout(function () {
         var preloader=document.getElementById("page-preloader");
