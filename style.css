@@ -1,7 +1,6 @@
 *{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	transition: .3s;
 }
 body{
 	margin: 0 auto;
@@ -153,3 +152,42 @@ footer{
 	font-weight: 600;
 	color: #56593D;
 }
+.flickity-page-dots {
+	bottom: -22px;
+	opacity: 0;
+}
+.flickity-page-dots .dot {
+	height: 4px;
+	width: 40px;
+	margin: 0;
+	border-radius: 0;
+}
+.vertimg{
+	  width: 300px;
+	  border-radius: 10px;
+}
+.horimg{
+	height: 300px;
+	border-radius: 10px;
+}
+.carousel{
+	width: 100%;
+}
+.carousel-cell{
+	margin-left: 30px;
+}
+.flickity-button{
+	border-radius: 10px;
+	background-color:  rgba(234,203,159, .6);
+}
+.carousel-cell{
+	filter: blur(2px);
+	transition: .3s;
+}
+.is-selected{
+	filter: none;
+}
+.flickity-viewport {
+	transition: height 0.2s;
+		border-radius: 10px;
+  }

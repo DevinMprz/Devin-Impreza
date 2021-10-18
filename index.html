@@ -10,6 +10,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,20 +37,19 @@
 		</div>
 		<div class="block passionsblock">
 			<div class="head">My Hobbies</div>
-				<div class="photoblock">
-					<div class="photos">
-						<div class="photo">
-							<img class="example" src="images/example.jpg" width="30%">
-							<div class="description">My first hobby is to take</br> object photos like this
-							</div> 
-						</div>
-						<div class="photo2">
-							<img src="images/example2.jpg" alt="" class="example">
-							<div class="description">That is my dog named "Chernushka"</div>
-						</div>
-					</div>
-					<button class="SeeMore">See More</button>
+			<div class="description">My hobby is to take
+				object photos like this
 				</div>
+			<div class="carousel js-flickity" data-flickity='{"adaptiveHeight": true}'>
+				<div class="carousel-cell"><img class="vertimg" src="images/example.jpg" alt=""></div>
+				<div class="carousel-cell"><img class="vertimg" src="images/example2.jpg" alt=""></div>
+				<div class="carousel-cell"><img class="horimg" src="images/example3.jpg" alt=""></div>
+				<div class="carousel-cell"><img class="vertimg" src="images/example4.jpg" alt=""></div>
+				<div class="carousel-cell"><img class="vertimg" src="images/example5.jpg" alt=""></div>
+				<div class="carousel-cell"><img class="horimg" src="images/example7.jpg" alt=""></div>
+				<div class="carousel-cell"><img class="horimg" src="images/example8.jpg" alt=""></div>
+				<div class="carousel-cell"><img class="vertimg" src="images/example6.jpg" alt=""></div>
+			  </div>
 		</div>
 		<div class="block programmingblock">
 			<div class="codingblock">I like to create programs, and also<br> when they are working :D</div>
@@ -56,5 +57,6 @@
 		<footer>
 			THE END.
 		</footer>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
