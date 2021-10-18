@@ -26,7 +26,7 @@ body{
 	top: 50%;
 	transform:translate(-200%,-50%);
 	background-color: black;
-	animation: anim 3s;
+	animation: anim 3s infinite;
 }
 @keyframes anim {
 	0%{transform:translate(-100%,-50%); width: 200px;}
