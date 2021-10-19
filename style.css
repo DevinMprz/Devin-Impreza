@@ -119,7 +119,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	flex-shrink: 30px;
-	height: 120vh;
+	height: 80vh;
 }
 .head{
 	font-weight:900;
@@ -204,9 +204,6 @@ footer{
 .carousel{
 	width: 100%;
 }
-.carousel-cell{
-	margin-left: 30px;
-}
 .flickity-button{
 	border-radius: 10px;
 	background-color:  rgba(234,203,159, .6);
@@ -214,6 +211,8 @@ footer{
 .carousel-cell{
 	filter: blur(2px);
 	transition: .3s;
+	margin-left: 30px;
+	margin-top: 5px;
 }
 .is-selected{
 	filter: none;
